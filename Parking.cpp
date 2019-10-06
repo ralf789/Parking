@@ -54,9 +54,9 @@ int T_price(int h1, int h2)
             amount = (h2-7)*2 + (7-h1);
         }
         else if(h2 > 17 and h2 <= 24){
-            cout<< 7-h1 <<" hour(s) at the hourlyrate of $1.\n";
-            cout<<"hour(s) at the hourlyrate of $2.\n";
-            cout<< h2-17 <<" hour(s) at the hourlyrate of $1.\n";
+            cout << 7-h1 <<" hour(s) at the hourlyrate of $1.\n";
+            cout << "hour(s) at the hourlyrate of $2.\n";
+            cout << h2-17 <<" hour(s) at the hourlyrate of $1.\n";
             amount = (h2-17) + (10*2) + (7-h1);
         }
     }
